@@ -31,7 +31,7 @@ The solution connects **Gmail**, **PDF.co**, and **Google Gemini AI** to process
 * **Google Sheets:** Dashboard & Staging.
 
 ## 📂 How to Use
-1.  Download the `blueprint.json` file from this repository.
+1.  Download the `Integration Gmail.blueprint.json` file from this repository.
 2.  Import it into a new Make.com scenario.
 3.  Connect your own Google and PDF.co accounts.
 4.  Set up the Gmail filter: `resume OR CV` -> Label: `incoming-cvs`.
