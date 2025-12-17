@@ -1,0 +1,6 @@
+streamlit
+selenium
+gspread
+oauth2client
+webdriver-manager
+pandas
