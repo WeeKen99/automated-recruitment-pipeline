@@ -18,11 +18,10 @@ def setup_google_sheets():
     return sheet
 
 def setup_browser():
-    print("🌐 Launching Chrome...")
     options = webdriver.ChromeOptions()
-    options.add_argument("--start-maximized")
-    # This keeps the browser open even if the script finishes (helpful for testing)
-    options.add_experimental_option("detach", True)
+    options.add_argument("--headless") # Runs browser in background
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     return driver
 
