@@ -1,0 +1,22 @@
+{
+  "title": "AI Recruitment Automation Pipeline",
+  "category": "Automation",
+  "summary": "n8n hiring workflow: resume ingestion, Gemini AI scoring, automated shortlisting and candidate notification.",
+  "result": "Automated CV screening",
+  "tags": [
+    "n8n",
+    "Gemini AI"
+  ],
+  "order": 110,
+  "featured": {
+    "summary": "Hiring workflow on n8n: resume ingestion, Gemini AI scoring, automated shortlisting and candidate notification, with Google Sheets tracking.",
+    "result": "Automated CV screening end to end",
+    "tags": [
+      "n8n",
+      "Gemini AI",
+      "Google Sheets"
+    ],
+    "image": "https://img.youtube.com/vi/RdZNA-xoj5s/maxresdefault.jpg",
+    "imageAlt": "Demo video of the AI recruitment pipeline"
+  }
+}
